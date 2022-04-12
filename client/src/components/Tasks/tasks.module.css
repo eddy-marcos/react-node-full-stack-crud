@@ -1,0 +1,18 @@
+.newTasksContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.h3 {
+    color: #ccc;
+    padding: 50px;
+    text-align: center;
+}
+
+
+@media (min-width: 768px) {
+    .newTasksContainer {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+  }

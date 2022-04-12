@@ -1,0 +1,42 @@
+.addTask {
+  font-family: "cursive";
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.textArea {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 18px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  margin-bottom: 10px;
+}
+
+.submit {
+  background: #0066a2;
+  color: white;
+  border-style: outset;
+  border-color: #0066a2;
+  height: 50px;
+  width: 100px;
+  font: bold 15px arial, sans-serif;
+  text-shadow: none;
+  margin-top: 20px;
+  border-radius: 18px;
+}
+
+select {
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+/* media queries */
+@media (min-width: 768px) {
+  .textArea {
+    width: 50%;
+  }
+}
